@@ -173,12 +173,9 @@ i:hover {
 }
 
 .carousel-img {
-    width: 50%;
+    width: 1265px;
+    height: 333px;
     margin: auto;
-}
-
-.carousel-caption {
-    color: #e94560
 }
 
 .carousel-indicators [data-bs-target]{
