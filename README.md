@@ -1,2 +1,2 @@
-# my web-site portfolio made it with bootstrap html, css and java script
+# my web-site portfolio made it with bootstrap html, css and javascript
 
