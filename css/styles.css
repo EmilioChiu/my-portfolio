@@ -1,12 +1,26 @@
+/*for the game*/
+.img-to-hide{
+  display: none;
+}
+
+.text-to-hide{
+  visibility: hidden;
+}
+
+#playButton{
+  color: #ffff;
+}
+
+#playButton:hover{
+  color: #e62e4d;
+}
+
+/*general*/
 body {
     margin: 0;
     text-align: center;
 }
 
-.intro {
-  width: 30%;
-  margin: auto;
-}
 
 h2 {
     padding: 20px;
@@ -59,27 +73,27 @@ i:hover {
     color: #ffff;
 }
 
-/* bees */
 
-.left-bee{
+/* bees */
+.left-ufo{
     transform: scaleX(-1);
 }
 
-.big-bee-right{
+.big-ufo-right{
     position: absolute;
     width: 10%;
     top: 20px;
     left: 200px;
 }
 
-.medium-bee-right{
+.medium-ufo-right{
     width: 8%;
     top: 140px;
     left: 80px;
     position: absolute;
 }
 
-.little-bee-right{
+.little-ufo-right{
     width: 4%;
     position: absolute;
     bottom: 100px;
@@ -87,21 +101,21 @@ i:hover {
 
 }
 
-.big-bee-left{
+.big-ufo-left{
     position: absolute;
     width: 10%;
     top: 20px;
     right: 200px;
 }
 
-.medium-bee-left{
+.medium-ufo-left{
     width: 8%;
     top: 140px;
     right: 80px;
     position: absolute;
 }
 
-.little-bee-left{
+.little-ufo-left{
     width: 4%;
     position: absolute;
     bottom: 100px;
@@ -109,7 +123,7 @@ i:hover {
 
 }
 
-.honeycomb {
+.alien {
     width: 40%;
 }
 
@@ -118,6 +132,11 @@ i:hover {
     padding-top: 100px;
     background-color: #16213e;
     color: #ffff;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .profile-img {
@@ -196,4 +215,3 @@ i:hover {
     padding: 100px 0px;
     color: #ffff;
 }
-
