@@ -74,7 +74,7 @@ i:hover {
 }
 
 
-/* bees */
+/* aliens */
 .left-ufo{
     transform: scaleX(-1);
 }
@@ -198,8 +198,6 @@ i:hover {
 }
 
 .carousel-img {
-    width: 1265px;
-    height: 333px;
     margin: auto;
 }
 
