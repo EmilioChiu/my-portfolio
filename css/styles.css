@@ -162,24 +162,7 @@ i:hover {
     margin: auto;
 }
 
-@media (max-width: 768px) {
-
-    .skill-row {
-       text-align: center;
-    }
-    .profile-img {
-       width: 20%;
-    }
-    .skill-imgs {
-        width: 50%;
-    }
-    .skills-paragraph {
-        width: 85%;
-        margin: auto;
-    }
-}
 /* bot-container */
-
 #bot-container {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -188,12 +171,16 @@ i:hover {
 }
 
 .carousel-div {
-    width: 70%;
+    width: 53%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-img {
     margin: auto;
+    width: 600px;
+    height: 320px;
 }
 
 .carousel-indicators [data-bs-target]{
@@ -213,4 +200,25 @@ i:hover {
     background-color: #1a1a2e;
     padding: 100px 0px;
     color: #ffff;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+
+    .skill-row {
+       text-align: center;
+    }
+    .profile-img {
+       width: 20%;
+    }
+    .skill-imgs {
+        width: 50%;
+    }
+    .skills-paragraph {
+        width: 85%;
+        margin: auto;
+    }
+    .carousel-div{
+        width: 100%;
+    }
 }
