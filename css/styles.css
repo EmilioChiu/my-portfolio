@@ -75,10 +75,6 @@ i:hover {
 
 
 /* aliens */
-.left-ufo{
-    transform: scaleX(-1);
-}
-
 .big-ufo-right{
     position: absolute;
     width: 10%;
