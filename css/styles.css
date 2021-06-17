@@ -17,7 +17,6 @@
 
 /*general*/
 body {
-    margin: 0;
     text-align: center;
 }
 
@@ -202,17 +201,24 @@ i:hover {
     color: #ffff;
 }
 
+.a-icon{
+    padding: 0 10px;
+    font-size: 1.5em;
+}
+
 /* responsive */
 @media (max-width: 768px) {
 
     .skill-row {
        text-align: center;
+       width: 100%
     }
     .profile-img {
        width: 20%;
     }
     .skill-imgs {
-        width: 50%;
+        padding-bottom: 1.25em;
+        width: 35%;
     }
     .skills-paragraph {
         width: 85%;
@@ -220,5 +226,8 @@ i:hover {
     }
     .carousel-div{
         width: 100%;
+    }
+    .a-icon{
+        padding: 0 5px;
     }
 }
