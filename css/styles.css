@@ -48,7 +48,7 @@ i {
 
 /* nav-bar */
 div a {
-    color: #ffff;
+    color: #ffff !important;
 }
 
 div a:hover {
